@@ -7,22 +7,22 @@
 //
 
 #import "MyFirstSceneViewController.h"
+#import "LCTilemapViewController.h"
 
 @implementation MyFirstSceneViewController
 
 -(void) initWithDefaults
 {
-	KTTilemapViewController* tilemapController = [KTTilemapViewController tilemapControllerWithTMXFile:@"LikeCocMap.tmx"];
-	[self addSubController:tilemapController];
+	LCTilemapViewController *mapController = [LCTilemapViewController tilemapControllerWithTMXFile:@"LikeCocMap.tmx"];
+	[self addSubController:mapController];
 }
 
--(void) load
-{
+-(void) load {
+    [self removeSubController:self.motionController];
 }
 
 
--(void) viewDidLoad
-{
+-(void) viewDidLoad {
 }
 
 @end
