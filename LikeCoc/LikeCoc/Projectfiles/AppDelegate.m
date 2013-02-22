@@ -6,8 +6,6 @@
  */
 
 #import "AppDelegate.h"
-#import "CoconutsViewController.h"
-#import "PhysicNutsViewController.h"
 #import "MyFirstSceneViewController.h"
 
 @implementation AppDelegate

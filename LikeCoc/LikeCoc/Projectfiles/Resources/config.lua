@@ -28,7 +28,7 @@ local config =
 		-- Render settings
 		DefaultTexturePixelFormat = TexturePixelFormat.RGBA8888,
 		GLViewColorFormat = GLViewColorFormat.RGB565,
-		GLViewDepthFormat = GLViewDepthFormat.DepthNone,
+		GLViewDepthFormat = GLViewDepthFormat.Depth24Bit,
 		GLViewMultiSampling = NO,
 		GLViewNumberOfSamples = 0,
 
